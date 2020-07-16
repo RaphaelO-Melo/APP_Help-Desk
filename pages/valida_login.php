@@ -39,5 +39,6 @@
         $_SESSION['autenticado'] = 'SIM';
     } else {
         $_SESSION['autenticado'] = 'NAO';
+        header('Location: ../index.php?login=erro');
     }
 ?>
