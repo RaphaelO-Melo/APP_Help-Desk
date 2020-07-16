@@ -1,4 +1,8 @@
 <?php 
+
+    #INICIA SESSÃO
+    session_start();
+
     #USUÁRIOS DO SISTEMA
     $usuarios_app = 
     [
@@ -32,7 +36,8 @@
     //Verifica se usuário foi encontrado
     if($usuario_autenticado){
         echo 'Usuário encontrado';
+        $_SESSION['autenticado'] = 'SIM';
     } else {
-        header('Location: ../index.php?login=erro');
+        $_SESSION['autenticado'] = 'NAO';
     }
 ?>
