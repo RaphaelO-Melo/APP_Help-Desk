@@ -1,0 +1,3 @@
+Notebook^Hardware^Notebook não inicia pacote office- e desliga sozinho.Notebook^Hardware^Notebook não inicia pacote office- e desliga sozinho.
+Photoshop^Software^Pacote adobe com erro ao iniciar
+Usuário já existe^Criação Usuário^Criação de usuário sempre indicando que já existe um usuário
